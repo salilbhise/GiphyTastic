@@ -9,7 +9,7 @@ function displayGif() {
 
 // Variable that is the data attribute of the button that was clicked
     var artist = $(this).attr("data-artist");
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + artist + "&api_key=LZy09xs9hO9OKBfwXv4kkEvTSlmeW2Xe&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + artist + "&api_key=BioH0AJgVkFUuUBnaLHHKjIh6LiXHDnz&limit=10";
 
     // Creating my AJAX call using the Gipgy API with artist and my API Key. Setting limit to 10 results. 
     $.ajax({
